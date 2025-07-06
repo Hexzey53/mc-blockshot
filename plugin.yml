@@ -1,0 +1,12 @@
+name: Blockshot
+version : 0.0.1
+author : Hexzey
+api-version: 1.20
+main: fr.hexzey.blockshot.Main
+commands :
+  blockshot:
+    description: Main command.
+    permission: blockshot.main
+  bs:
+    description: Alias for blockshot command.
+    permission: blockshot.main.alias
